@@ -11,6 +11,7 @@ Utils/Types/Types.cpp
 Utils/Types/UUID.cpp
 
 Utils/DS/Trie.cpp
+Utils/DS/UnorderedMap.cpp
 
 Core/Animations/Animation.cpp
 Core/Animations/Animator.cpp
@@ -47,6 +48,7 @@ Core/Rendering/Renderer/VertexBuffer.cpp
 Core/Rendering/Renderer/Renderer.cpp
 Core/Rendering/Renderer/RenderStructs.cpp
 Core/Rendering/Renderer/Shader.cpp
+Core/Rendering/Renderer/ShaderPart.cpp
 Core/Rendering/Renderer/SkyBox.cpp
 Core/Rendering/Renderer/Texture.cpp
 Core/Rendering/Renderer/UniformBuffer.cpp
@@ -58,6 +60,7 @@ Core/Rendering/RendererOpenGL/GLUtils.cpp
 Core/Rendering/RendererOpenGL/GLVertexArray.cpp
 Core/Rendering/RendererOpenGL/GLVertexBuffer.cpp
 Core/Rendering/RendererOpenGL/GLShader.cpp
+Core/Rendering/RendererOpenGL/GLShaderPart.cpp
 Core/Rendering/RendererOpenGL/GLTexture.cpp
 Core/Rendering/RendererOpenGL/GLUniformBuffer.cpp
 Core/Rendering/RendererOpenGL/GLRenderAPI.cpp
@@ -79,10 +82,24 @@ Core/SoundEngine/SoundsAndFactories.cpp
 Core/ResourceManaging/AssetManager.cpp
 Core/ResourceManaging/RawData.cpp
 Core/ResourceManaging/ResourceManager.cpp
+Core/ResourceManaging/Resource.cpp
+
+Core/ResourceManaging/Resources/Material.cpp
+Core/ResourceManaging/Resources/Texture.cpp
+Core/ResourceManaging/Resources/ShaderPart.cpp
+Core/ResourceManaging/Resources/Shader.cpp
+Core/ResourceManaging/Resources/Mesh.cpp
+
 
 Core/Scripting/Script.cpp
 Core/Scripting/ScriptEngine.cpp
 Core/Scripting/ScriptClass.cpp
+
+
+Core/Threading/Executor.cpp
+Core/Threading/Task.cpp
+Core/Threading/TimerQueue.cpp
+Core/Threading/MutexMap.cpp
 
 ToolBox/Loaders/ModelLoader.cpp
 ToolBox/Loaders/TextureLoader.cpp 
